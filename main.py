@@ -11,7 +11,7 @@ def projects():
     return render_template('projects.html')
 
 @app.route('projects/calculator')
-def projects():
+def calculator():
     return render_template('projects/calculator.html')
 
 if __name__ == "__main__":
