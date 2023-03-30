@@ -6,11 +6,11 @@ app = Flask(__name__, static_folder='templates/static')
 def root():
     return render_template('index.html')
 
-@app.route('projects')
+@app.route('/projects')
 def projects():
     return render_template('projects.html')
 
-@app.route('projects/calculator')
+@app.route('/projects/calculator')
 def calculator():
     return render_template('projects/calculator.html')
 
